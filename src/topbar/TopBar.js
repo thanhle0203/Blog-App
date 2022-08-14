@@ -5,9 +5,9 @@ const TopBar = () => {
   return (
     <div className='top'>
         <div className='topLeft'>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-square-instagram"></i>
+            <i className="topIcon fa-brands fa-facebook"></i>
+            <i className= "topIcon fa-brands fa-twitter"></i>
+            <i className= "topIcon fa-brands fa-square-instagram"></i>
         </div>
         <div className='topCenter'>
             <ul className='topList'>
@@ -18,7 +18,14 @@ const TopBar = () => {
                 <li className='topListItem'>LOGOUT</li>
             </ul>
         </div>
-        <div className='topRight'>Right</div>
+        <div className='topRight'>
+            <img 
+                className='topImg'
+                src = "https://neilpatel.com/wp-content/uploads/2018/10/blog.jpg"
+                alt=''
+            />
+            <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
+        </div>
     </div>
   )
 }
