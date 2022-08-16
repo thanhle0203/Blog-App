@@ -2,8 +2,16 @@
     padding-top: 50px;
 }
 
-.writeForm {
+.writeImg {
+    margin-left: 150px;
+    width: 70vw;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+}
 
+.writeForm {
+    position: relative;
 }
 
 .writeFormGroup {
@@ -36,6 +44,7 @@
 
 .writeText {
     font-size: 20px;
+    height: 100vh;
 }
 
 .writeSubmit {

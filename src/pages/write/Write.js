@@ -4,6 +4,11 @@ import "./write.css"
 export const Write = () => {
   return (
     <div className='write'>
+        <img 
+            className='writeImg'
+            src='https://www.business2community.com/wp-content/uploads/2015/09/how-to-write-a-blog-post-1024x683.jpg-900x600.jpg'
+            alt=''
+        />
         <form className='writeForm'>
             <div className='writeFormGroup'>
                 <label htmlFor='fileInput' >
