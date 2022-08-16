@@ -17,11 +17,10 @@ const Post = () => {
         <span className='postTitle'>One Direction</span>
         <hr />
         <span className='postDate'>1 hour ago</span>
-        
       </div>
-    
-
-
+      <p className='postDesc'>
+        If you're pretending from the start. Like this, with a tight grip. Then my kiss can mend your broken heart. I might miss. Everything you said to me.
+      </p>
 
     </div>
   )
