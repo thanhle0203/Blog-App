@@ -1,7 +1,7 @@
 .post {
     flex-direction: column;
     width: 385px;
-    margin: 0px 25px 40px 40px 25px;
+    margin: 20px;
     display: flex;
     margin-bottom: 50px;
 }
