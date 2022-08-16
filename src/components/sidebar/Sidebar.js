@@ -8,7 +8,7 @@ const Sidebar = () => {
             <span className='sidebarTitle'>ABOUT ME</span>
             <img 
                 className='sidebarImg' 
-                src='https://t3.ftcdn.net/jpg/02/10/99/54/360_F_210995418_ShiTcuXkKr0kbLSwhLV2oDk2qmFVQsGj.jpg' 
+                src='https://drexel.edu/~/media/Images/cci/Stories/Remote%20Software%20Engineering-Page.ashx?h=1000&w=1500&hash=6BB2151F2495C52A21F368DADF9D7D9604BC1936' 
                 alt=''
             />
             <p>

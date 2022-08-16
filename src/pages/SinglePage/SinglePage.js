@@ -1,9 +1,13 @@
 import React from 'react'
+import Sidebar from '../../components/sidebar/Sidebar'
 import "./singlePage.css"
 
 const SinglePage = () => {
   return (
-    <div>SinglePage</div>
+    <div className='singlePage'>
+        {/* post */}
+        <Sidebar />
+    </div>
   )
 }
 
