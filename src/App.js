@@ -4,13 +4,14 @@ import SinglePage from "./pages/SinglePage/SinglePage";
 import { Write } from "./pages/write/Write";
 import { Settings } from "./pages/setttings/Settings";
 import { Login } from "./pages/Login/Login";
+import { Register } from "./pages/register/Register";
 
 
 function App() {
   return (
     <>
       <TopBar />
-      <Login />
+      <Register />
     </>
     
   );
