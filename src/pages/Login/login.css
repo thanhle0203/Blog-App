@@ -1,0 +1,73 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    rgba(77, 105, 166, 0.5),
+  rgba(77, 105, 166, 0.5)),
+  url("https://img.rawpixel.com/private/static/images/website/2022-05/rm218batch10-mynt-21.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=5fc5a626633d41ea94e9a7332f40e77b");
+  background-size: cover;
+}
+
+.loginTitle {
+    margin-top: 20px;
+    font-size: 60px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.loginForm {
+    height: 500px;
+    width: 400px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.loginForm > label {
+    margin: 10px 30px;
+}
+
+.loginInput {
+    margin: 10px 30px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(235, 233, 233);
+    border: none;
+    margin-bottom: 15px;
+}
+
+.loginLabel {
+    margin: 30px 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.loginButton {
+    margin: 20px 30px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.loginRegisterButton {
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
